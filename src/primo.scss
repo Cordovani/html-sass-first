@@ -1,0 +1,42 @@
+$default_color: #754949;
+$default_size: 30px;
+$default_border: solid 1px $default_color;
+
+// reset
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: $default_color;
+    padding: $default_size;
+    border: $default_border;
+}
+
+p:nth-child(1) p:nth-child(2){
+    margin: $default_size;
+} 
+
+button:hover {
+    color: $default_color;
+    padding: 0 $default_size;
+}
+
+button {
+    margin: $default_size;
+}
+
+h1 {
+    border-bottom: solid 1px $default_color;
+}
+
+h2{
+    border: $default_border;
+    color: $default_color;
+}
+
+h3{
+    font-weight: $default_size;
+}
+

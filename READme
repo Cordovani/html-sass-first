@@ -1,0 +1,11 @@
+webpack.mix.js --> il file che editeremo di più
+
+in /dist finiranno i file compilati
+
+COMPILAZIONE 
+-----------------------------------------------------------------------------------------------------
+npx mix
+
+# Oppure se vogliamo che laravel-mix rimanga in ascolto delle future modifiche all'interno del nostro file e ricompili il css da solo
+
+npx mix watch
